@@ -1,4 +1,4 @@
-require 'pry'
+require pry
 
 def square_array(array)
   array.map { |n| n ** 2 }
