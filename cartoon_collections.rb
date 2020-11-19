@@ -1,3 +1,5 @@
+require 'pry'
+
 def square_array(array)
   array.map { |n| n ** 2 }
 end
@@ -15,6 +17,7 @@ end
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |e|
       if e.is_a? String && e.length > 4
+        binding.pry
     end
   end
 end
