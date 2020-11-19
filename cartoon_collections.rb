@@ -1,14 +1,16 @@
 def square_array(array)
-  array.map {|n| n ** 2}
+  array.map { |n| n ** 2 }
 end
 
 # Use an Enumerable to square every element in the passed in array
 # Return a new array of the results
 
 def summon_captain_planet(planeteer_calls)
-  # Use an Enumerable to capitalize and add '!' to every element in the passed in array
-  # Return a new array of the results
+  planeteer_calls.map { |e| e.capitalize + "!" }
 end
+
+# Use an Enumerable to capitalize and add '!' to every element in the passed in array
+# Return a new array of the results
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
