@@ -14,7 +14,8 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.map do |e|
-    if e.is_a? String && e.length > 4
+      if e.is_a? String && e.length > 4
+    end
   end
 end
 
