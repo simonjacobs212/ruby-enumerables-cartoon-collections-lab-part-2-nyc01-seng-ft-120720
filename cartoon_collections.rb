@@ -13,7 +13,7 @@ end
 # Return a new array of the results
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.map do |e|
+  planeteer_calls.each do |e|
       if e.is_a? String && e.length > 4
     end
   end
