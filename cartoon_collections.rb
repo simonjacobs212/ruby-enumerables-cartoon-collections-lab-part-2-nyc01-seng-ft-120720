@@ -15,7 +15,7 @@ end
 # Return a new array of the results
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.each do |e| 
+  planeteer_calls.any? do |e|
     if e.length > 4
     end
   end
